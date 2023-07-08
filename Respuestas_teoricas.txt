@@ -1,0 +1,43 @@
+ 1. ¿Cuáles son las limitaciones de las pruebas de Selenium?
+ las limitaciones son:
+ - No podemos probar las pruebas de escritorio.
+ - la automatizacion de captch no es comptible usndo selenium.
+ - No podemos usar servicios web.
+
+2. ¿Qué tipos de esperas admite WebDriver?
+Webdriver admite esperas explicitas y implicitas.
+3. Cuál es la principal diferencia entre driver.close() y driver.quit()?
+web driver.close() cierra la ventana donde esta navegando y webdrive.quit() cierra por completo la sesion.
+4. Se puede automatizar Captcha?
+no, porque un captcha no esta diseñado para automatizar.
+5. ¿Qué hace el comando switchTo()?
+Es para posicionarnos en los distintos objetos que componen la pagina web y switchto() sirve para pasar entre objetos en un webdrive.
+6. ¿Cuándo usamos findElement() y findElements()?
+-find.element: se usa cuando se busca un elemento en un webdrive.
+- find.elements: se uusa cuandl se nesecita encontrar varios web elements de un selector.
+7. xplique en qué se diferencian las pruebas de API de las pruebas unitarias.
+Las pruebas unitarias se encargan de probar el codigo y las pruebas api se prueba el conjunto de deficiones o protocolos.
+8. ¿Cómo funcionan las API?
+Es la que permite que una aplicacion estraiga datos o informacion del backend.
+9. ¿Cuáles son las ventajas del API Testing?
+-Mejor mantenimientos y escalamiento.
+- Mejor performance a la hora de ejecutar un set amplio de pruebas.
+10. ¿Cuáles son las ventajas del UI Testing?
+Garantizar que las interacciones de interfaz de usuario mas criticas continuen funcionando a medida que se agrega nuevas funciones o refactoriza el codigo de la aplicacion.
+11. Qué es la latencia en el API Testing?
+El tiempo transcurrido entre la emision de una solicitud api y la recepcion de la respuesta correspondiente.
+12. numere el código de estado más común que puede responder una API
+- 200
+- 201
+- 204
+- 400
+- 401
+- 403
+- 404
+- 405
+- 406
+- 409
+- 415
+- 500
+
+
